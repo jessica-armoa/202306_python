@@ -15,3 +15,18 @@ def get_circle_area(r):
   return (c, a)
 
 circun, area = get_circle_area(20)
+
+
+dict = {}
+lista = [1,2,3,4]
+dict = dict.fromkeys(lista, "hola")
+print(dict)
+
+#print(str(dict[5]))
+print(dict.get(5,"No se encontro"))
+
+
+capitales = {"Washington":"Olympia","California":"Sacramento","Idaho":"Boise","Illinois":"Springfield","Texas":"Austin","Oklahoma":"Oklahoma City","Virginia":"Richmond"}
+# otra forma de iterar a través de las claves
+for key in capitales:
+  print(capitales[key])
